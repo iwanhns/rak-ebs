@@ -48,7 +48,7 @@
         Email atau Password Salah!
     </div>
 <?php } else if($_SESSION['message'] == "logout-success") { ?>
-    <div class="alert alert-info alert-dismissable">
+    <div class="alert alert-warning alert-dismissable">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
         <h4><i class="icon fa fa-ban"></i> Alert!</h4>
         Sukses Logout!

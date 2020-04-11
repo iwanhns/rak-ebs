@@ -1,6 +1,6 @@
 <?php
   session_start();
-  include '../static/current-page.php'; 
+  include '../static/current-page.php'
 ?>
 <!DOCTYPE html>
 <html>
@@ -12,4 +12,4 @@
         <?php include '../static/nav-side.php'; ?>
       </aside>
       <div class="content-wrapper">
-        <?php include '../static/content-header.php'; ?>
+        <?php include '../static/database-connector.php'; ?>
